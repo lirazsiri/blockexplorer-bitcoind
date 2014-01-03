@@ -26,6 +26,8 @@ http://bitcoin.org/may15.html
 
 	cat /var/local/lib/bitcoin-qt/DB_CONFIG
 	set_lk_max_locks 537000
+	set_lk_max_objects 537000
 
 	cat /var/local/lib/bitcoin-qt-testnet/testnet3/DB_CONFIG
 	set_lk_max_locks 537000
+	set_lk_max_objects 537000
